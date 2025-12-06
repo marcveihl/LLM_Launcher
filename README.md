@@ -1,5 +1,7 @@
 # LLM Launcher v2
 
+<img width="896" height="630" alt="image" src="https://github.com/user-attachments/assets/3af87c8b-a016-447e-a3b5-c2d466eb3fec" />
+
 Remote control for local LLM models with authentication, monitoring, and Tailscale support.
 
 ## What's New in v2
