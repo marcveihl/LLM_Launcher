@@ -1,0 +1,62 @@
+{
+  "server": {
+    "host": "0.0.0.0",
+    "port": 8081,
+    "llama_host": "0.0.0.0",
+    "llama_port": 8080
+  },
+  "security": {
+    "api_key": "CHANGE_ME_TO_SOMETHING_RANDOM_1234567890",
+    "allowed_origins": ["*"]
+  },
+  "paths": {
+    "llama_server": "C:\\path\\to\\llama.cpp\\build\\bin\\Release\\llama-server.exe",
+    "models_base": "C:\\path\\to\\models"
+  },
+  "models": {
+    "gpt-oss-20b": {
+      "name": "GPT-OSS 20B",
+      "file": "will-lns/gpt-oss-20b-MXFP4/gpt-oss-20b-MXFP4.gguf",
+      "context": 32768,
+      "gpu_layers": 24,
+      "cpu_moe": 4,
+      "temp": 0.8,
+      "top_k": 50,
+      "top_p": 0.95,
+      "extra_args": ["--jinja"]
+    },
+    "qwen3-30b-thinking": {
+      "name": "Qwen3 30B A3B Thinking",
+      "file": "unsloth/Qwen3-30B-A3B-Thinking-2507-GGUF/Qwen3-30B-A3B-Thinking-2507-Q4_K_M.gguf",
+      "context": 8192,
+      "gpu_layers": 48,
+      "cpu_moe": 24,
+      "temp": 0.6,
+      "top_k": 20,
+      "top_p": 0.95,
+      "min_p": 0.0
+    },
+    "qwen3-30b-instruct": {
+      "name": "Qwen3 30B A3B Instruct",
+      "file": "unsloth/Qwen3-30B-A3B-Instruct-2507-GGUF/Qwen3-30B-A3B-Instruct-2507-Q4_K_M.gguf",
+      "context": 8192,
+      "gpu_layers": 48,
+      "cpu_moe": 24,
+      "temp": 0.6,
+      "top_k": 20,
+      "top_p": 0.95,
+      "min_p": 0.0
+    },
+    "qwen3-coder-30b": {
+      "name": "Qwen3 Coder 30B A3B",
+      "file": "unsloth/Qwen3-Coder-30B-A3B-Instruct-GGUF/Qwen3-Coder-30B-A3B-Instruct-Q4_K_M.gguf",
+      "context": 8192,
+      "gpu_layers": 48,
+      "cpu_moe": 24,
+      "temp": 0.6,
+      "top_k": 20,
+      "top_p": 0.95,
+      "min_p": 0.0
+    }
+  }
+}

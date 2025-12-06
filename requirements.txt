@@ -1,0 +1,9 @@
+# LLM Launcher Control Server - Python Dependencies
+# This project uses only Python standard library (no external dependencies required)
+# Python 3.7+ required
+
+# Optional: For loading .env files (not required, can use environment variables directly)
+# python-dotenv==1.0.0
+
+# Optional: For cross-platform system stats (alternative to wmic on Windows)
+# psutil==5.9.6
