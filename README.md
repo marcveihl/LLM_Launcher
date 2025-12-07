@@ -2,6 +2,8 @@
 
 <img width="896" height="630" alt="image" src="https://github.com/user-attachments/assets/3af87c8b-a016-447e-a3b5-c2d466eb3fec" />
 
+<img width="791" height="1222" alt="image" src="https://github.com/user-attachments/assets/0a2dd8ab-efd4-45a4-95d2-a082bbfa6416" />
+
 Remote control for local LLM models with authentication, monitoring, and Tailscale support.
 
 ## Features
